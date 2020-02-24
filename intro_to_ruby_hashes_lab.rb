@@ -5,6 +5,7 @@ end
 def monopoly_with_second_tier
   hash= base_hash
   #hash[:railroads]={:pieces=>{}}
+  hash[:railroads][:pieces]={}
   hash
 end
 
