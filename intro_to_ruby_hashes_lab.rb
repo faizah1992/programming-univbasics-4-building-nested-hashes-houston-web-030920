@@ -11,7 +11,7 @@ end
 
 def monopoly_with_third_tier
   hash = monopoly_with_second_tier
-  hash[:railroads][:rent_in_dollars]={:one_piece_owned=>25,:two_pieces_owned=>50,:three_pieces_owned=>100,:d=>"zaman"}
+  hash[:railroads][:rent_in_dollars]={:one_piece_owned=>25,:two_pieces_owned=>50,:three_pieces_owned=>100,:four_pieces_owned=>200}
   hash[:railroads][:names]={:a=>"faizah",:b=>"ahsan",:c=>"farshid",:d=>"zaman"}
   hash 
 end
